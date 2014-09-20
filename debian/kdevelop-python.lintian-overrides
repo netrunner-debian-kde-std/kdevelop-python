@@ -1,0 +1,5 @@
+kdevelop-python: package-name-doesnt-match-sonames libkdev4pythoncompletion libkdev4pythonduchain libkdev4pythonparser
+kdevelop-python: shlib-without-versioned-soname usr/lib/libkdev4pythonparser.so libkdev4pythonparser.so
+kdevelop-python: shlib-without-versioned-soname usr/lib/libkdev4pythonduchain.so libkdev4pythonduchain.so
+kdevelop-python: shlib-without-versioned-soname usr/lib/libkdev4pythoncompletion.so libkdev4pythoncompletion.so
+kdevelop-python: postinst-must-call-ldconfig usr/lib/libkdev4pythonparser.so

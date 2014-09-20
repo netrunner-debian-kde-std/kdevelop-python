@@ -1,0 +1,14 @@
+usr/lib/kde4/kcm_docfiles.so
+usr/lib/kde4/kcm_pep8.so
+usr/lib/kde4/kdevpdb.so
+usr/lib/kde4/kdevpythonlanguagesupport.so
+usr/lib/libkdev4pythoncompletion.so
+usr/lib/libkdev4pythonduchain.so
+usr/lib/libkdev4pythonparser.so
+usr/share/kde4/apps/kdevappwizard/
+usr/share/kde4/apps/kdevpythonsupport/
+usr/share/kde4/config/kdev_python_docfiles.knsrc
+usr/share/kde4/services/kcm_kdevpythondocfiles.desktop
+usr/share/kde4/services/kcm_kdevpythonpep8.desktop
+usr/share/kde4/services/kdevpdb.desktop
+usr/share/kde4/services/kdevpythonsupport.desktop

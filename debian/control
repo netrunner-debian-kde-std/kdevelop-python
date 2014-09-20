@@ -1,0 +1,47 @@
+Source: kdevelop-python
+Section: devel
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>,
+Build-Depends: cmake (>= 2.8.0),
+               debhelper (>= 9),
+               kdevplatform-dev (>= 1.7.0),
+               pkg-kde-tools (>= 0.6.4),
+               python3-dev (>= 3.4),
+Standards-Version: 3.9.5
+Homepage: http://www.kdevelop.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/kdevelop-python.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/kdevelop-python.git
+
+Package: kdevelop-python
+Architecture: any
+Depends: kdevelop (>= 4:4.7.0), python3 (>= 3.4),
+ ${misc:Depends}, ${shlibs:Depends}
+Suggests: kdevelop-python-l10n
+Enhances: kdevelop
+Description: Python 3 plugin for KDevelop
+ KDevelop is an easy to use integrated development environment for KDE.
+ It supports a wide range of programming languages and features project
+ management, an advanced editor, a class browser and an integrated debugger.
+ .
+ This package contains the Python 3 language support plugin.
+
+Package: kdevelop-python-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: kdelibs5-dbg, kdevelop-python (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for the KDevelop Python 3 plugin
+ This package contains the debugging symbols of the Python plugin for KDevelop.
+ They will automatically be used by gdb for debugging issues with the Python 3
+ plugin.
+
+Package: kdevelop-python-l10n
+Section: localization
+Architecture: all
+Depends: ${misc:Depends}
+Description: localization files for KDevelop Python 3 plugin
+ The KDevelop-Python plugin is the language plugin for the Python 3 language
+ for the KDevelop integrated development environment for KDE.
+ .
+ This  package contains the localizations for the KDevelop Python 3 plugin.

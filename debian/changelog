@@ -1,0 +1,6 @@
+kdevelop-php (1.7.0-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * Initial release (Closes: #718296)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Sep 2014 09:12:13 +0200

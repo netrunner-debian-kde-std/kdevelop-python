@@ -1,0 +1,3 @@
+version=3
+
+ftp://ftp.kde.org/pub/kde/stable/kdevelop/([\d.]+)/src/kdev-python-([\d.]+)-py3.tar.xz

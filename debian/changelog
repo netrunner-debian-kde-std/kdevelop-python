@@ -1,4 +1,4 @@
-kdevelop-php (1.7.0-0r1) UNRELEASED; urgency=medium
+kdevelop-python (1.7.0-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Initial release (Closes: #718296)

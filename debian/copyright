@@ -1,0 +1,502 @@
+This work was packaged for Debian by:
+
+    Pino Toscano <pino@debian.org>
+    Andreas Cord-Landwehr <cordlandwehr@kde.org>
+
+It was downloaded from:
+    http://download.kde.org
+
+The license and copyright information, as stated below, incorporate several
+updates and relicenses performed by upstream. For this please refer to the
+respective VCS changes as stated at the end of this file.
+
+Files: pythonpythonparser.py
+Copyright: 2010 Sven Brauch <svenbrauch@googlemail.com>
+License: GPL
+
+Files: docfilekcm/docfilemanagerwidget.cpp
+ docfilekcm/docfilemanagerwidget.h
+ docfilekcm/docfilewizard.cpp
+ docfilekcm/docfilewizard.h
+ docfilekcm/kcm_docfiles.cpp
+ docfilekcm/kcm_docfiles.h
+ duchain/assistants/missingincludeassistant.cpp
+ duchain/assistants/missingincludeassistant.h
+ duchain/correctionhelper.cpp
+ duchain/correctionhelper.h
+Copyright: 2013, Sven Brauch <svenbrauch@gmail.com>
+License: GPL-2+ or any later version accepted by the membership of KDE e.V.
+
+Files: app_templates/qtdesigner_app/mainwindow.py
+ documentation_files/*
+ parser/generated.h
+Copyright: none, generated files
+
+Files: codegen/correctionfilegenerator.cpp
+ codegen/correctionfilegenerator.h
+ codegen/refactoring.cpp
+ codegen/refactoring.h
+ debugger/pythondebugexport.h
+ duchain/declarations/decorator.h
+ duchain/navigation/navigationwidget.cpp
+ duchain/navigation/navigationwidget.h
+ duchain/pythonduchainexport.h
+ parser/ast.cpp
+ parser/ast.h
+ parser/astbuilder.cpp
+ parser/astbuilder.h
+ parser/astdefaultvisitor.cpp
+ parser/astdefaultvisitor.h
+ parser/astvisitor.cpp
+ parser/astvisitor.h
+ parser/cythonsyntaxremover.cpp
+ parser/cythonsyntaxremover.h
+ parser/parserexport.h
+Copyright: 2007, Andreas Pakulat <apaku@gmx.de>
+ 2014, Gregor Vollmer <gregor@celement.de>
+ 2004, Jaroslaw Staniek <js@iidea.pl>
+ 2006, Matt Rogers <mattr@kde.org>
+ 2014, Miquel Sabat√ <mikisabate@gmail.com>
+ 2012, Patrick Spendrin <ps_ml@gmx.de>
+ 2010,2011,2012,2013,2014, Sven Brauch <svenbrauch@googlemail.com>
+License: LGPL-2+
+
+Files: checks/basiccheck.cpp
+ checks/basiccheck.h
+ checks/controlflowgraphbuilder.cpp
+ checks/controlflowgraphbuilder.h
+ checks/dataaccessvisitor.cpp
+ checks/dataaccessvisitor.h
+ codecompletion/context.cpp
+ codecompletion/context.h
+ codecompletion/helpers.cpp
+ codecompletion/helpers.h
+ codecompletion/items/declaration.cpp
+ codecompletion/items/declaration.h
+ codecompletion/items/functiondeclaration.cpp
+ codecompletion/items/functiondeclaration.h
+ codecompletion/items/implementfunction.cpp
+ codecompletion/items/implementfunction.h
+ codecompletion/items/importfile.cpp
+ codecompletion/items/importfile.h
+ codecompletion/items/keyword.cpp
+ codecompletion/items/keyword.h
+ codecompletion/items/missingincludeitem.cpp
+ codecompletion/items/missingincludeitem.h
+ codecompletion/items/replacementvariable.cpp
+ codecompletion/items/replacementvariable.h
+ codecompletion/model.cpp
+ codecompletion/model.h
+ codecompletion/pythoncompletionexport.h
+ codecompletion/tests/pycompletiontest.cpp
+ codecompletion/tests/pycompletiontest.h
+ codecompletion/worker.cpp
+ codecompletion/worker.h
+ debugger/__kdevpython_debugger_utils.py
+ debugger/breakpointcontroller.cpp
+ debugger/breakpointcontroller.h
+ debugger/debugjob.cpp
+ debugger/debugjob.h
+ debugger/debugsession.cpp
+ debugger/debugsession.h
+ debugger/kdevpdb.py
+ debugger/pdbdebuggerplugin.cpp
+ debugger/pdbdebuggerplugin.h
+ debugger/pdbframestackmodel.cpp
+ debugger/pdbframestackmodel.h
+ debugger/pdblauncher.cpp
+ debugger/pdblauncher.h
+ debugger/variable.cpp
+ debugger/variable.h
+ debugger/variablecontroller.cpp
+ debugger/variablecontroller.h
+ documentation_src/introspection/introspect.py
+ documentation_src/numpy/generate_numpy_doc.py
+ documentation_src/pyqt/generate.sh
+ duchain/contextbuilder.cpp
+ duchain/contextbuilder.h
+ duchain/declarationbuilder.cpp
+ duchain/declarationbuilder.h
+ duchain/declarations/classdeclaration.cpp
+ duchain/declarations/classdeclaration.h
+ duchain/declarations/functiondeclaration.cpp
+ duchain/declarations/functiondeclaration.h
+ duchain/expressionvisitor.cpp
+ duchain/expressionvisitor.h
+ duchain/helpers.cpp
+ duchain/helpers.h
+ duchain/pythonducontext.cpp
+ duchain/pythonducontext.h
+ duchain/pythoneditorintegrator.cpp
+ duchain/pythoneditorintegrator.h
+ duchain/typebuilder.cpp
+ duchain/typebuilder.h
+ duchain/types/hintedtype.cpp
+ duchain/types/hintedtype.h
+ duchain/types/indexedcontainer.cpp
+ duchain/types/indexedcontainer.h
+ duchain/types/unsuretype.cpp
+ duchain/types/unsuretype.h
+ duchain/usebuilder.cpp
+ duchain/usebuilder.h
+ parser/codehelpers.cpp
+ parser/codehelpers.h
+ parser/conversionGenerator.py
+ parser/parsesession.cpp
+ parser/parsesession.h
+ parser/python_header.h
+ parser/tests/pyasttest.cpp
+ parser/tests/pyasttest.h
+ parser/tests/pycythontest.cpp
+ parser/tests/pycythontest.h
+ pep8kcm/kcm_pep8.cpp
+ pep8kcm/kcm_pep8.h
+ pythonhighlighting.cpp
+ pythonhighlighting.h
+ pythonlanguagesupport.cpp
+ pythonlanguagesupport.h
+ pythonparsejob.cpp
+ pythonparsejob.h
+ runtest.py
+Copyright: 2007, Andreas Pakulat <apaku@gmx.de>
+ 2013, Atanas Gospodinov <atanas.r.gospodinov@gmail.com>
+ 2014, Gregor Vollmer <gregor@celement.de>
+ 2010, Miquel Canes Gonzalez <miquelcanes@gmail.com>
+ 2007, Piyush verma <piyush.verma@gmail.com>
+ 2010,2011,2012,2013,2014, Sven Brauch <svenbrauch@googlemail.com>
+License: GPL-2+
+
+Files: duchain/navigation/declarationnavigationcontext.cpp
+ duchain/navigation/declarationnavigationcontext.h
+Copyright: 2007, David Nolden <david.nolden.kdevelop@art-master.de>
+ 2008, Niko Sams <niko.sams@gmail.com>
+License: LGPL-2
+
+Files: duchain/dumpchain.cpp
+ duchain/dumpchain.h
+ duchain/tests/duchainbench.cpp
+ duchain/tests/duchainbench.h
+ duchain/tests/pyduchaintest.cpp
+ duchain/tests/pyduchaintest.h
+Copyright: 2014, Benjamin Kaiser <benjaminjkaiser@gmail.com>
+ 2010, Miquel Canes Gonzalez <miquelcanes@gmail.com>
+ 2007, Piyush verma <piyush.verma@gmail.com>
+ 2011,2012, Sven Brauch <svenbrauch@googlemail.com>
+License: MIT/X11 (BSD like)
+
+Files: app_templates/*
+ correction_files/*
+ duchain/tests/data/*
+ example_ast.py
+License: public domain
+
+Files: documentation_src/pyqt/parse_xml.py
+ documentation_src/pyqt/sip_to_xml.py
+ documentation_src/pyqt/xml_to_py.py
+Copyright:
+ 2011 Victor Varvariuc <victor.varvariuc@gmail.com>
+ 2011 Sven Brauch <svenbrauch@googlemail.com>
+License: GPL-2
+ deduced by stated reference to KDevelop license, which is GPL-2
+ as stated in kdevelop/COPYING
+
+
+On Debian systems, the complete text of the GNU General
+Public License version 2 and version 3 can be found in
+"/usr/share/common-licenses/GPL-2" and "/usr/share/common-licenses/GPL-3".
+
+The Debian packaging is:
+
+    Copyright (C) 2014 Pino Toscano <pino@debian.org>
+    Copyright (C) 2014 Andreas Cord-Landwehr <cordlandwehr@kde.org>
+
+you can redistribute it and/or modify it under the terms of the GNU General
+Public License as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+
+Relicensing information:
+
+-----------------------------------------------------------------------
+
+From: Sven Brauch <svenbrauch@googlemail.com>
+Date: Sun, 14 Sep 2014 20:01:36 +0000
+Subject: add COPYING to documentation_files
+X-Git-Url: http://quickgit.kde.org/?p=kdev-python.git&a=commitdiff&h=f57a892956893118a375d3f524d4b439e7608fbc
+---
+add COPYING to documentation_files
+---
+
+
+--- /dev/null
++++ b/documentation_files/COPYING
+@@ -1,1 +1,3 @@
++All files in this subdirectory tree are generated automatically and are not
++subject to copyright, unless the file header says something different.
+
+-----------------------------------------------------------------------
+
+From: Sven Brauch <svenbrauch@googlemail.com>
+Date: Sun, 14 Sep 2014 20:29:27 +0000
+Subject: relicense GPL3 only files to GPLv2+
+X-Git-Url: http://quickgit.kde.org/?p=kdev-python.git&a=commitdiff&h=8cb8b20ec5f92247e7e234874cf2be06413b281b
+---
+relicense GPL3 only files to GPLv2+
+
+the necessary permissions of the authors are present.
+---
+
+
+--- a/duchain/types/hintedtype.cpp
++++ b/duchain/types/hintedtype.cpp
+@@ -4,7 +4,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+--- a/duchain/types/hintedtype.h
++++ b/duchain/types/hintedtype.h
+@@ -4,7 +4,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+--- a/duchain/types/indexedcontainer.cpp
++++ b/duchain/types/indexedcontainer.cpp
+@@ -4,7 +4,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+--- a/duchain/types/indexedcontainer.h
++++ b/duchain/types/indexedcontainer.h
+@@ -4,7 +4,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+--- a/duchain/types/unsuretype.cpp
++++ b/duchain/types/unsuretype.cpp
+@@ -4,7 +4,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+--- a/duchain/types/unsuretype.h
++++ b/duchain/types/unsuretype.h
+@@ -4,7 +4,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+--- a/parser/tests/pyasttest.cpp
++++ b/parser/tests/pyasttest.cpp
+@@ -4,7 +4,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+--- a/parser/tests/pyasttest.h
++++ b/parser/tests/pyasttest.h
+@@ -4,7 +4,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+--- a/parser/tests/pycythontest.cpp
++++ b/parser/tests/pycythontest.cpp
+@@ -4,7 +4,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+--- a/parser/tests/pycythontest.h
++++ b/parser/tests/pycythontest.h
+@@ -5,7 +5,7 @@
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+-    the Free Software Foundation, either version 3 of the License, or
++    the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+
+-----------------------------------------------------------------------
+From: Sven Brauch <svenbrauch@googlemail.com>
+Date: Sun, 14 Sep 2014 20:38:05 +0000
+Subject: relicense another file from GPL v3+ to GPL v2+
+X-Git-Url: http://quickgit.kde.org/?p=kdev-python.git&a=commitdiff&h=ec8b64143b1cd38cf1da9944981a4c830a251614
+---
+relicense another file from GPL v3+ to GPL v2+
+---
+
+
+--- a/documentation_src/introspection/introspect.py
++++ b/documentation_src/introspection/introspect.py
+@@ -2,7 +2,7 @@
+ # -*- Coding:utf-8 -*-
+
+ # Copyright 2013 by Sven Brauch <svenbrauch@googlemail.com>
+-# License: GNU GPL v3 or later
++# License: GNU GPL v2 or later
+ # The script output is not copyrighted, use it for whatever you want.
+
+ # WARNING: This script does things which can cause bad stuff to happen
+
+-----------------------------------------------------------------------
+
+From: Sven Brauch <svenbrauch@googlemail.com>
+Date: Sun, 14 Sep 2014 20:46:12 +0000
+Subject: clarify license for some files
+X-Git-Url: http://quickgit.kde.org/?p=kdev-python.git&a=commitdiff&h=409acd1b7b168bc3a0fe5796f1b06f765e58df83
+---
+clarify license for some files
+
+mention what stuff is public domain in README.packagers;
+add license header to some python helper scripts
+---
+
+
+--- a/README.packagers
++++ b/README.packagers
+@@ -30,3 +30,12 @@
+ representations of python's built-in data types, which are then read
+ by the parser etc.).
+
++Licensing notes
++---------------
++The following files are not copyrighted:
++Everything in duchain/tests/data/
++Everything in documentation_files/
++Everything in correction_files/
++Everything in app_templates/
++example_ast.py
++
+
+--- a/debugger/__kdevpython_debugger_utils.py
++++ b/debugger/__kdevpython_debugger_utils.py
+@@ -1,4 +1,7 @@
+ # This file is imported from within the debugger
++
++# Copyright 2014 Sven Brauch
++# License: GPL v2+
+
+ from kdevpdb import kdevOutputFormatter
+
+
+--- a/debugger/kdevpdb.py
++++ b/debugger/kdevpdb.py
+@@ -1,3 +1,6 @@
++# Copyright 2014 Sven Brauch <svenbrauch@gmail.com>
++# License: GPL v2+
++
+ from pdb import *
+
+ import sys
+@@ -41,3 +44,4 @@
+     import pdb
+     pdb.Pdb = kdevPdb
+     pdb.main()
++
+
+--- a/parser/conversionGenerator.py
++++ b/parser/conversionGenerator.py
+@@ -1,4 +1,7 @@
+ #!/usr/bin/env python
++
++# Copyright 2014 by Sven Brauch
++# License: GPL v2+
+
+ # Transforms a conversion definition file (.sdef) into C++ code. To be copied over manually. :)
+ # sdef example line:
+
+--- a/runtest.py
++++ b/runtest.py
+@@ -1,5 +1,8 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
++
++# Copyright 2014 by Sven Brauch
++# License: GPL v2+
+
+ import sys
+ import subprocess
+
+-----------------------------------------------------------------------
+
+From: Sven Brauch <svenbrauch@googlemail.com>
+Date: Sun, 14 Sep 2014 20:58:16 +0000
+Subject: some more license headers
+X-Git-Url: http://quickgit.kde.org/?p=kdev-python.git&a=commitdiff&h=ac3593bbe3a1113f5c0f6afdf034027702a9c4e0
+---
+some more license headers
+---
+
+
+--- a/documentation_src/numpy/generate_numpy_doc.py
++++ b/documentation_src/numpy/generate_numpy_doc.py
+@@ -1,4 +1,7 @@
+ #!/usr/bin/env python
++
++# Copyright 2014 Sven Brauch <svenbrauch@gmail.com>
++# License: GPL v2+
+
+ import importlib
+
+
+--- a/documentation_src/pyqt/generate.sh
++++ b/documentation_src/pyqt/generate.sh
+@@ -1,3 +1,6 @@
++# Copyright 2014 Sven Brauch <svenbrauch@gmail.com>
++# License: GPL v2+
++
+ pyqt=($(ls /usr/share/sip/PyQt4))
+ element_count=${#pyqt[@]}
+ for index in $(seq $element_count); do
+

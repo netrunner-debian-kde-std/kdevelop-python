@@ -3,6 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Pino Toscano <pino@debian.org>,
+           Andreas Cord-Landwehr <cola@uni-paderborn.de>
 Build-Depends: cmake (>= 2.8.0),
                debhelper (>= 9),
                kdevplatform-dev (>= 1.7.0),

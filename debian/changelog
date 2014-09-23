@@ -1,7 +1,7 @@
-kdevelop-python (1.7.0-0r1) UNRELEASED; urgency=medium
+kdevelop-python (1.7.0-1) unstable; urgency=medium
 
   [ Pino Toscano ]
   [ Andreas Cord-Landwehr ]
   * Initial release (Closes: #718296)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Sep 2014 09:12:13 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 23 Sep 2014 23:59:35 +0200

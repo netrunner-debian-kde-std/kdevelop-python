@@ -5,6 +5,9 @@ kdevelop-python (1.7.3-0r1) UNRELEASED; urgency=medium
   * Update watch file.
   * Bump kdevplatform-dev build dependency to >= 1.7.2.
   * Bump Standards-Version to 3.9.6, no changes required.
+  * Explicitly use python3.4(-dev): kdev-python seems to require this
+    particular version, so use it as stop-gap measure to make this plugin
+    buildable and usable again. (Closes: #810750)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Jan 2016 22:56:54 +0100
 

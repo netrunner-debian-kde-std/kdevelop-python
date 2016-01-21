@@ -8,7 +8,7 @@ Build-Depends: cmake (>= 2.8.0),
                debhelper (>= 9),
                kdevplatform-dev (>= 1.7.2),
                pkg-kde-tools (>= 0.6.4),
-               python3-dev (>= 3.4),
+               python3.4-dev,
 Standards-Version: 3.9.6
 Homepage: http://www.kdevelop.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/kdevelop-python.git
@@ -16,7 +16,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/kdevelop-python.git
 
 Package: kdevelop-python
 Architecture: any
-Depends: kdevelop (>= 4:4.7.0), python3 (>= 3.4),
+Depends: kdevelop (>= 4:4.7.0), python3.4,
  ${misc:Depends}, ${shlibs:Depends}
 Suggests: kdevelop-python-l10n
 Enhances: kdevelop

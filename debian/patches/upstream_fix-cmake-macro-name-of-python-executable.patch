@@ -1,0 +1,26 @@
+From 673a4890fd3becfab22c1e9eda2071dafd08a161 Mon Sep 17 00:00:00 2001
+From: Sven Brauch <mail@svenbrauch.de>
+Date: Mon, 21 Dec 2015 13:55:32 +0100
+Subject: [PATCH] fix cmake macro name of python executable
+
+BUG:353821
+REVIEW:124185
+---
+ kdevpythonversion.h.cmake | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/kdevpythonversion.h.cmake b/kdevpythonversion.h.cmake
+index b8557ac..7786449 100644
+--- a/kdevpythonversion.h.cmake
++++ b/kdevpythonversion.h.cmake
+@@ -30,6 +30,6 @@
+ 
+ #define KDEVPYTHON_VERSION KDE_MAKE_VERSION(@KDEVPYTHON_VERSION_MAJOR@, @KDEVPYTHON_VERSION_MINOR@, @KDEVPYTHON_VERSION_PATCH@)
+ 
+-#define PYTHON_EXECUTABLE "@PYTHON_EXECUTABLE@"
++#define PYTHON_EXECUTABLE "@PYTHON_EXEC@"
+ 
+ #endif
+-- 
+2.7.0.rc3
+

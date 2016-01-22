@@ -1,3 +1,8 @@
+kdevelop-python (1.7.2-2) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2016 08:23:45 +0100
+
 kdevelop-python (1.7.2-1) unstable; urgency=medium
 
   * Team upload.

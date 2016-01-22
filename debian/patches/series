@@ -1,1 +1,2 @@
 upstream_fix-cmake-macro-name-of-python-executable.patch
+upstream_cmake-use-CMAKE_LIBRARY_ARCHITECTURE.patch

@@ -1,0 +1,26 @@
+From b54654be20cfd52cf121784f8a5dd6e77bc4767b Mon Sep 17 00:00:00 2001
+From: Pino Toscano <pino@kde.org>
+Date: Fri, 22 Jan 2016 08:22:56 +0100
+Subject: [PATCH] cmake: use CMAKE_LIBRARY_ARCHITECTURE
+
+... instead of hardcoding x86_64-linux-gnu & i386-linux-gnu
+---
+ cmake/modules/FindPython.cmake | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/cmake/modules/FindPython.cmake b/cmake/modules/FindPython.cmake
+index 17d6c30..136c5c9 100644
+--- a/cmake/modules/FindPython.cmake
++++ b/cmake/modules/FindPython.cmake
+@@ -87,7 +87,7 @@ find_library(PYTHON_LIBRARIES
+     PATHS
+         "${PYTHON_PREFIX}/lib"
+         [HKEY_LOCAL_MACHINE\\SOFTWARE\\Python\\PythonCore\\${PYTHON_VERSION}\\InstallPath]/libs
+-    PATH_SUFFIXES "" "python${PYTHON_VERSION}/config" "x86_64-linux-gnu" "i386-linux-gnu"
++    PATH_SUFFIXES "" "python${PYTHON_VERSION}/config" "${CMAKE_LIBRARY_ARCHITECTURE}"
+     DOC "Python libraries" NO_DEFAULT_PATH)
+ 
+ find_path(PYTHON_INCLUDE_DIRS "Python.h"
+-- 
+2.7.0.rc3
+
